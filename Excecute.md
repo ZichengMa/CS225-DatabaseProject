@@ -1,0 +1,5 @@
+from record select (all)
+from record select (all) where (status == 2)
+from record select (all) where ((status == 3) and (1 < agegp < 6))
+from record select (uid,name) where ((status == 1) or (status == 3))
+from record select (uid,name) where ((status == 1) or ((status == 3) and (riskgp < 3)))
